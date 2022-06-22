@@ -40,20 +40,6 @@ app.use(function (err, req, res, next) {
   res.render('error');
 });
 
-// const PgSeqlDAO = require('./models/persistence/PgSeqlDAO');
-// createTable = false;
-// populate = false;
-// let pgSeqlDAO = new PgSeqlDAO(createTable);
-// // pgSeqlDAO.showConfig();
-// if (!createTable && populate) {
-//   pgSeqlDAO.populate();
-// }
-
-// const UserDB = require('./models/persistence/UserDB');
-// createTable = false;
-// populate = false;
-// let userDB = new UserDB();
-
 
 module.exports = app;
 

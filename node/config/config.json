@@ -27,12 +27,13 @@
     },
     "db_prod_url": "postgres://postgres:postgres@localhost:5432/rin544",
     "cloud": {
-        "username": "mutclyib",
-        "password": "89RRrgOpCmuNkZxBMPxWC-5Koz2hvYCJ",
-        "database": "mutclyib",
-        "host": "tuffi.db.elephantsql.com",
+        "username": "USERNAME",
+        "password": "PASS",
+        "database": "DATABASE",
+        "host": "XXX.elephantsql.com",
         "dialect": "postgres",
         "port": "5432"
     },
-    "db_cloud_url": "postgres://mutclyib:89RRrgOpCmuNkZxBMPxWC-5Koz2hvYCJ@tuffi.db.elephantsql.com:5432/mutclyib"
+    "db_cloud_url": "postgres://USERNAME:PASS@XXX.elephantsql.com/DATABASE"
+	
 }

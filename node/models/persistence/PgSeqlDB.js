@@ -43,7 +43,7 @@ class PgSeqlDB {
             username: this.dbconfig.username,
             password: this.dbconfig.password,
             database: this.dbconfig.database,
-            host: this.dbconfig.host,
+            host: "kesavan.db.elephantsql.com",
             port: this.dbconfig.port,
             dialect: this.dbconfig.dialect
         });
