@@ -5,7 +5,7 @@
  * @Date   : 17/06/2022 16:20:20
  */
 
-const pgSeqlDB = require('./PgSeqlDB');
+const PgSeqlDB = require('./PgSeqlDB');
 var Sequelize = require('sequelize');
 
 /**
@@ -25,7 +25,7 @@ class UserDB {
     // pgSeqlDB.showConfig();
 
     constructor() {
-        this.pgSeqlDB = new pgSeqlDB(this.createTable);
+        this.pgSeqlDB = new PgSeqlDB(this.createTable);
         this.dbconfig = this.pgSeqlDB.dbconfig;
         this.sequelize = this.pgSeqlDB.sequelize;
         this.defineUserModel();
